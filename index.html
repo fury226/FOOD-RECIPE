@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title> Food Recipe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    
+</head>
+<body>
+    <!-- navigation bar-->
+    <div  class="navbar">
+    <ul>
+        <li>
+            <a href="#">HOME</a>
+        </li>
+        <li>
+            <a href="#recipe">RECIPE</a>
+        </li>
+        <li>
+            <a href="#about">ABOUT</a>
+        </li>
+        <li>
+            <a href="#social">CONTACT</a>
+        </li>
+    </ul>
+</div>
+    <!-- hero section-->
+    <div class="hero__section">
+        <div class="hero__text">
+            <h1>Food Recipe</h1>
+            <p>learn how to cooking</p>
+            <a href="#recipe" class="btn__dark margin__top">Read Recipes</a>
+        </div>
+    </div>
+
+    <!-- recipe__section -->
+ <div class="recipe__section">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="image__wrapper">
+                    <img src="img/first.jpg">
+                    <div class="image__wrapper-text">
+                        <h5>Lunch</h5>
+                        <p>Quick & Healthy Lunch Box Ideas 
+                          for the Week (vegetarian)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image__wrapper">
+                    <img src="img/second.jpg">
+                    <div class="image__wrapper-text">
+                        <h5>Breakfast</h5>
+                        <p>5 easy toast recipes for
+                             breakfast & evening snacks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image__wrapper">
+                    <img src="img/third.jpg">
+                    <div class="image__wrapper-text">
+                        <h5>Dinner</h5>
+                        <p>4 healthy & quick 
+                        dinner recipes |easy dinner party recipe ideas</p>
+                    </div>
+                </div>
+            </div>
+         </div>     
+      </div>
+  </div>
+
+    <!-- about__section -->
+    <div class="about__section">
+        <a name="about"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="image__background">
+                        <img src="img/user.jpg" class="image__responsive">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h4>Ahmed Sami</h4>
+                    <p>HI,my name is Ahmed.Iam 23 Years old.I am the creator of this web page.
+                        I have a great obsession in the field of food, preparation and restaurants.
+                        I wanted to share this passion and some experience with you.
+                        I hope to see you well and learn some recipes. If anyone has some recipes, please share them on this page.
+
+                    </p>
+                    <a href="https://www.facebook.com/profile.php?id=100004443017572" class="btn__dark margin__top" target="-blank">Know More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- extra__section -->
+    <div class="extra__section">
+        <a name="recipe"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                      <div class="row no-gutters">
+                          <div class="col-md-4">
+                              <img src="img/R1.jpg" class="imgr">
+                          </div>
+                          <div class="col-md-8 bg__dark text__light p-3 ">
+                            <h4>Beef steak with onion sauce</h4><br>
+                         <input onclick="recipe1()" type="button" class="btn__light" value="Read Recipe">
+                         
+                          </div>
+                      </div>
+                      <div class="window">
+                           <button onclick="exit()" class="exit_btn">Exit</button>
+                          <div class="text">
+                           
+                         </div>
+                      </div>
+                      
+                    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="img/R2.jpg" class="imgr">
+                        </div>
+                        <div class="col-md-8 bg__dark text__light p-3 ">
+                          <h4>Beef stir fry with vegetables</h4><br>
+                          
+                        <input onclick="recipe2()" type="button" class="btn__light" value="Read Recipe">
+                        </div>
+                    </div>
+                    
+
+                  
+              </div>
+              <div class="col-md-6 mb-5">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="img/R3.jpg" class="imgr">
+                    </div>
+                    <div class="col-md-8 bg__dark text__light p-3 ">
+                   <h4>Chicken Lasagna</h4><br>
+                     
+                    <input onclick="recipe3()" type="button" class="btn__light" value="Read Recipe">
+                    </div>
+                </div>
+                
+              
+          </div>
+          <div class="col-md-6 mb-5">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img/R4.jpg" class="imgr">
+                </div>
+                <div class="col-md-8 bg__dark text__light p-3 ">
+                  <h4>Margherita pizza with sauce and cheese</h4><br>
+                 
+                <input onclick="recipe4()" type="button" class="btn__light" value="Read Recipe">
+                </div>
+                
+            </div>
+            
+          
+      </div>
+      <div class="col-md-6 mb-5">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="img/R5.jpg" class="imgr">
+            </div>
+            <div class="col-md-8 bg__dark text__light p-3 ">
+              <h4>Grilled meatballs with parmesan cheese</h4><br>
+             
+            <input onclick="recipe5()" type="button" class="btn__light" value="Read Recipe">
+            </div>
+            
+        </div>
+        
+      
+  </div>
+  <div class="col-md-6 mb-5">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="img/R6.jpg" class="imgr">
+        </div>
+        <div class="col-md-8 bg__dark text__light p-3 ">
+          <h4>Coleslaw with pineapple salad</h4><br>
+         
+        <input onclick="recipe6()" type="button" class="btn__light" value="Read Recipe">
+        </div>
+        
+    </div>
+    
+  
+</div>
+<div class="col-md-6">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="img/R7.jpg" class="imgr">
+        </div>
+        <div class="col-md-8 bg__dark text__light p-3 ">
+          <h4>Cake</h4><br>
+         
+        <input onclick="recipe7()" type="button" class="btn__light" value="Read Recipe">
+        </div>
+        
+    </div>
+    
+  
+</div>
+<div class="col-md-6">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="img/R8.jpg" class="imgr">
+        </div>
+        <div class="col-md-8 bg__dark text__light p-3 ">
+          <h4>Lemon juice with mint and green apple</h4><br>
+         
+        <input onclick="recipe8()" type="button" class="btn__light" value="Read Recipe">
+        </div>
+        
+    </div>
+    
+  
+</div>
+      
+            </div>
+        </div>
+    </div>
+
+    <!-- subscribe__section -->
+    <div class="subscribe__section">
+       <div class="container">
+       <div class="row">
+        <div class="col-md-8">
+            <p>Subscribe ricepe</p>
+        </div>
+        <div class="col-md-4">
+            <form>
+                <input class="sub" type="text">
+                <button onclick="sub()" type="submit">submit order</button>
+            </form>
+        </div>
+       </div>
+       </div>
+    </div>
+     <!-- category__section -->
+    <div class="category__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="image__wrapper">
+                        <img src="img/cat1.jpg">
+                        <div class="image__wrapper-text bg__light">
+                           
+                            <p>Quick and Healthy appetizers (vegetarian)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image__wrapper">
+                        <img src="img/cat2.jpg">
+                        <div class="image__wrapper-text bg__light">
+                            
+                            <p>5 easy toast recipes for
+                                 breakfast & evening snacks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image__wrapper">
+                        <img src="img/cat3.jpg">
+                        <div class="image__wrapper-text bg__light">
+                            
+                            <p>Freshy Juices and koktel 
+                             recipe ideas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image__wrapper">
+                        <img src="img/cat4.jpg">
+                        <div class="image__wrapper-text bg__light">
+                            
+                            <p>4 healthy &  Freshy Froot recipes</p>
+                        </div>
+                    </div>
+                </div>
+             </div>     
+          </div>
+    </div>
+    <div class="contact">
+        <a name="social"></a>
+        <h3>Contact Us on:</h3>
+         <a href="https://www.facebook.com/profile.php?id=100004443017572" target="-blank"><img src="img/Facebook.png"></a>
+        <a href="https://www.instagram.com/_22ah6/" target="-blank"><img src="img/insta.png"></a>
+        <a href="mailto:ahmedsami.as80@gmail.com" target="-blank"> <img src="img/email.png">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
